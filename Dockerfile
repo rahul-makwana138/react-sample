@@ -12,5 +12,5 @@ RUN yarn
 COPY [".", "/app"]
 
 # Start App
-RUN npm build
+RUN npm run build
 CMD ["npm", "start"]
